@@ -229,7 +229,7 @@
                     <div class="contact-info p-4 h-100">
                         <h3 class="h4 text-primary mb-4">Fale com um especialista</h3>
                         <p class="mb-3"><i class="fas fa-map-marker-alt text-primary me-2"></i> São Paulo, SP - Brasil</p>
-                        <p class="mb-3"><i class="fas fa-phone text-primary me-2"></i> (11) 9999-9999</p>
+                        <p class="mb-3"><i class="fas fa-phone text-primary me-2"></i> +55 (19) 3648-5900</p>
                         <p class="mb-4"><i class="fas fa-envelope text-primary me-2"></i> contato@nalift.com.br</p>
                         
                         <h4 class="h5 text-primary mb-3">Redes Sociais</h4>
@@ -264,6 +264,8 @@
                                 <button type="submit" class="btn btn-whatsapp w-100 py-2">
                                     <i class="fab fa-whatsapp me-2"></i> Enviar via WhatsApp
                                 </button>
+
+                                <span class="lei" data-delay="0">De acordo com a lei 12.965/2014 e 13.709/2018, autorizo enviarem comunicações por e-mail ou qualquer outro meio e concordo com a sua política de privacidade.</span>
                             </form>
                         </div>
                     </div>
@@ -311,7 +313,7 @@
                     <p class="small mb-0">&copy; 2023 Nalift Empilhadeiras Articuladas. Todos os direitos reservados.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
-                    <p class="small mb-0">Desenvolvido por <a href="#" class="text-primary">Sua Empresa</a></p>
+                    <p class="small mb-0">Desenvolvido por <a href="#" class="text-primary">Nalift</a></p>
                 </div>
             </div>
         </div>
@@ -332,13 +334,13 @@
             const mensagem = document.getElementById('mensagem').value;
             
             // Número do WhatsApp para onde a mensagem será enviada
-            const numeroWhatsApp = "5511999999999"; // Substitua pelo número real
+            const numeroWhatsApp = "+551936485900";
             
             // Texto da mensagem
             const texto = `Olá, sou da empresa ${empresa}. 
-Email: ${email}
-WhatsApp: ${whatsapp}
-Mensagem: ${mensagem}`;
+            Email: ${email}
+            WhatsApp: ${whatsapp}
+            Mensagem: ${mensagem}`;
             
             // Criar o link do WhatsApp
             const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
