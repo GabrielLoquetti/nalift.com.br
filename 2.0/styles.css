@@ -276,18 +276,26 @@ header .container {
 }
 
 .search-btn {
+    position: fixed; /* Fixa o botão na tela */
+    top: 20px; /* Distância do topo (ajustável) */
+    right: 20px; /* Grudado à direita */
+    width: 50px; /* Largura para deixar quadrado */
+    height: 50px; /* Altura igual à largura */
     display: flex;
     align-items: center;
+    justify-content: center; /* Centraliza o ícone */
     cursor: pointer;
-    padding: 5px 10px;
     background-color: #00843D;
     color: #fff;
     border-radius: 4px;
+    z-index: 999; /* Fica acima de outros elementos */
 }
 
 .search-btn i {
-    margin-right: 5px;
+    margin-right: 0; /* Remove margem lateral */
+    font-size: 20px; /* Tamanho do ícone (ajustável) */
 }
+
 
 .mobile-menu-btn {
     display: none;
