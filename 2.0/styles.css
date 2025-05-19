@@ -475,9 +475,10 @@ header .container {
 
 /* ===== PRODUCT CATEGORIES ===== */
 .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    gap: 30px;
+    display: flex;
+    
+    gap: 50px;
+    justify-content: center;
 }
 
 .category-card {
@@ -486,6 +487,7 @@ header .container {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    width: 20rem;
 }
 
 .category-card:hover {
