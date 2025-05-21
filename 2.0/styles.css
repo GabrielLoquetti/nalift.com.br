@@ -161,7 +161,7 @@ header .container {
 
 .container_dois {
     margin-left: 30px;
-    margin-right: 360px;
+    margin-right: 55rem;
 }
 
 .logo {
@@ -282,7 +282,7 @@ header .container {
 .search-btn {
     background: #0d6938;
     height: 100px;
-    width: 700px;
+    width: 7rem;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
     z-index: 9999999;
     display: flex;
