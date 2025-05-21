@@ -154,9 +154,6 @@ header {
 
 header .container {
     display: flex;
-    padding-left: 7px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     align-items: center;
     margin-left: 0;
     margin-right: 0;
@@ -164,12 +161,12 @@ header .container {
 
 .container_dois {
     margin-left: 30px;
-    margin-right: 300px;
+    margin-right: 360px;
 }
 
 .logo {
     max-width: 220px;
-    
+    margin-left: 8px;
 }
 
 .main-nav ul {
@@ -209,14 +206,13 @@ header .container {
     display: flex;
     align-items: center;
     white-space: nowrap; /* Impede quebra de linha */
-    
 }
 
 
 .language-selector {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 300px;
     margin-right: 20px;
     position: relative;
     cursor: pointer;
@@ -233,7 +229,11 @@ header .container {
     font-size: 12px;
 }
 
-.language-dropdown {
+.language-selector span {
+    margin-right: 10px;
+}
+
+/* .language-dropdown {
     position: absolute;
     top: 100%;
     right: 0;
@@ -266,7 +266,7 @@ header .container {
 
 .language-dropdown img {
     margin-right: 10px;
-}
+} */
 
 .contact-info {
     display: flex;
@@ -282,7 +282,7 @@ header .container {
 .search-btn {
     background: #0d6938;
     height: 100px;
-    width: 70px;
+    width: 700px;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
     z-index: 9999999;
     display: flex;
@@ -301,7 +301,8 @@ header .container {
 .search-btn i {
     font-size: 20px;
     color: white;
-    margin: 0;
+    text-decoration: none;
+    margin-left: 0;
 }
 
 .search-btn span {
