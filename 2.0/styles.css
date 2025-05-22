@@ -627,9 +627,12 @@ header .container {
 
 /* ===== CONTACT CTA ===== */
 .contact-cta {
-    background-color: #00843D;
+    background-image: url('./assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
-    padding: 60px 0;
+    padding: 130px 0;
     text-align: center;
 }
 
