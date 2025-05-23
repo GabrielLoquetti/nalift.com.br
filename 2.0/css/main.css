@@ -1,0 +1,21 @@
+/* 
+* NALIFT - Main Stylesheet (Modular Version)
+* Version: 1.0
+*/
+
+/* BASE */
+@import url('./base/base.css');
+
+
+/* LAYOUT */
+@import url('./layout/layout.css');
+
+/* COMPONENTS */
+@import url('./components/components.css');
+
+
+/* PAGES */
+@import url('./pages/pages.css');
+
+/* UTILS */
+@import url('./utils/utils.css');
