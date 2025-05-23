@@ -375,10 +375,10 @@
 }
 
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
     gap: 30px;
     margin-bottom: 50px;
+    
 }
 
 .product-card {
@@ -387,6 +387,7 @@
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    margin: 0 auto;
 }
 
 .product-card:hover {
@@ -432,9 +433,9 @@
 }
 
 .features-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: flex;
     gap: 30px;
+    
 }
 
 .feature-item {
@@ -917,9 +918,12 @@
 /* ===== CONTACT PAGE ===== */
 .contact-info-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
     gap: 30px;
     margin-bottom: 50px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    
 }
 
 .contact-info-card {
