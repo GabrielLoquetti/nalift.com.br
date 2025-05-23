@@ -1,0 +1,157 @@
+/* 
+* NALIFT - Utilities
+* Responsive styles and utilities
+*/
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+    }
+    
+    .header-right {
+        display: none;
+    }
+    
+    .slide-content h1 {
+        font-size: 36px;
+    }
+    
+    .why-choose-image,
+    .why-choose-text,
+    .about-text,
+    .about-image {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .case-study-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .news-main,
+    .news-sidebar {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .news-card.featured {
+        flex-direction: column;
+    }
+    
+    .news-card.featured .news-image,
+    .news-card.featured .news-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .video-player,
+    .video-description {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .slide-content h1 {
+        font-size: 28px;
+    }
+    
+    .features-box {
+        padding: 15px;
+    }
+    
+    .form-row .form-group {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .dealer-cta {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+    .slide-content h1 {
+        font-size: 24px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .categories-tabs {
+        flex-direction: column;
+    }
+    
+    .contact-form-container {
+        padding: 20px;
+    }
+}
+
+/* Correção para o footer - adicione ao final do seu arquivo CSS */
+
+/* Estilo para o container dos widgets do footer */
+.footer-widgets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Estilo para cada widget individual */
+.footer-widget {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Garantir que os links fiquem bem espaçados */
+.footer-widget ul li {
+  margin-bottom: 10px;
+}
+
+/* Melhorar a aparência dos ícones de contato */
+.contact-info li i {
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .footer-widgets {
+    flex-direction: column;
+  }
+
+  .footer-widget {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,309 @@
+/* 
+* NALIFT - Components Styles
+* Reusable Components and Widgets
+*/
+
+/* ===== HERO BANNER ===== */
+.hero-banner {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.hero-slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.slide-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.features-box {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 20px 40px;
+}
+
+.features-box ul {
+    text-align: left;
+}
+
+.features-box li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.features-box li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* ===== WHY CHOOSE SECTION ===== */
+.why-choose-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.why-choose-image {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.why-choose-text {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.why-choose-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #00843D;
+}
+
+.why-choose-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.why-choose-text ul {
+    margin-bottom: 30px;
+}
+
+.why-choose-text li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.why-choose-text li:before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #00843D;
+    font-weight: 700;
+}
+
+/* ===== PRODUCT CATEGORIES ===== */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 30px;
+}
+
+.category-card {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-card h3 {
+    padding: 20px 20px 10px;
+    font-size: 20px;
+}
+
+.category-card p {
+    padding: 0 20px 20px;
+    color: #666;
+}
+
+.category-card .btn-secondary {
+    margin: 0 20px 20px;
+}
+
+/* ===== ADVANTAGES ===== */
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 30px;
+}
+
+.advantage-card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.advantage-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.advantage-icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    background-color: #e6f4ee;
+    color: #00843D;
+    font-size: 30px;
+    margin: 0 auto 20px;
+}
+
+.advantage-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* ===== CASE STUDIES ===== */
+.case-studies-slider {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.case-study-card {
+    flex: 0 0 calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    margin: 0 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.case-study-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.case-study-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.case-study-content {
+    padding: 20px;
+}
+
+.case-study-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.case-study-content p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* ===== CONTACT CTA ===== */
+.contact-cta {
+    background-image: url('./assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 130px 0;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.cta-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-content .btn-primary {
+    background-color: #fff;
+    color: #00843D;
+}
+
+.cta-content .btn-primary:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===== CHAT WIDGET ===== */
+.chat-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}
+
+.chat-button {
+    width: 60px;
+    height: 60px;
+    background-color: #00843D;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.chat-button:hover {
+    background-color: #006630;
+    transform: scale(1.1);
+}

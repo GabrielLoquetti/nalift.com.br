@@ -3,19 +3,8 @@
 * Version: 1.0
 */
 
-/* BASE */
-@import url('./base/base.css');
-
-
-/* LAYOUT */
-@import url('./layout/layout.css');
-
-/* COMPONENTS */
-@import url('./components/components.css');
-
-
-/* PAGES */
-@import url('./pages/pages.css');
-
-/* UTILS */
-@import url('./utils/utils.css');
+@import url("./base/base.css");
+@import url("./layout/layout.css");
+@import url("./components/components.css");
+@import url("./pages/pages.css");
+@import url("./utils/utils.css");
